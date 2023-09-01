@@ -1,11 +1,13 @@
-// import Image from 'next/image'
-
-import Navbar from "./components/Navbar";
+import Navbar from './components/Navbar'
+import Content from './components/Content'
 
 export default function Home() {
   return (
-    <main className="h-screen flex flex-col">
+    <main className='flex h-screen flex-col'>
       <Navbar />
+      <div className='flex h-full'>
+        <Content />
+      </div>
     </main>
   )
 }
