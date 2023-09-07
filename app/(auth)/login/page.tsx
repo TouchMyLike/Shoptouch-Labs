@@ -90,7 +90,7 @@ export default function Page() {
           </button>
         </div>
         <div className='mt-4 text-center'>
-          Don't have an account yet?{' '}
+          {`Don't have an account yet? `}
           <Link href='/register' className='text-blue-500 hover:underline'>
             Register
           </Link>
